@@ -1,7 +1,7 @@
 import Http from './http';
 import UI from './ui';
 
-const http = new Http('http://reduxblog.herokuapp.com/api/');
+const http = new Http('https://reduxblog.herokuapp.com/api/');
 const ui = new UI();
 
 document.addEventListener('DOMContentLoaded', getPosts);
